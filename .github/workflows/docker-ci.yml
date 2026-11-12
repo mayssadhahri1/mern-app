@@ -66,4 +66,4 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USER }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       - name: Push
-        run: docker push "$IMAGE:$GITHUB_SHA"
+        run: docker push "$IMAGE:$GITHUB_SHA"# relance
